@@ -15,12 +15,13 @@
 :white_check_mark: 8    
 :white_check_mark: 9    
 :white_check_mark: 11    
+:white_check_mark: 12    
 :white_check_mark: 14    
 :white_check_mark: 15    
 :white_check_mark: 16    
 :white_check_mark: 18    
-:black_square_button: 21    
-:black_square_button: 22    
+:white_check_mark: 21     
+:white_check_mark: 22    
 :white_check_mark: 23    
 :white_check_mark: 24    
 :white_check_mark: 25    
