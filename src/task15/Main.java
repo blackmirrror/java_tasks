@@ -1,23 +1,27 @@
 package task15;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Deque;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
 
     public static class Solution {
-        public static void splitStack(Stack<Integer> stack) {
-            Stack<Integer> plus = new Stack<>();
-            Stack<Integer> minus = new Stack<>();
-            while (!stack.isEmpty()) {
-                int val = stack.pop();
-                if (val < 0) plus.add(val);
-                else minus.add(val);
+        public static void splitStack(Stack<Integer> s) {
+            Queue<Integer> q = new LinkedList<Integer>();
+            int lessZero = 0;
+            while(!s.isEmpty()) {
+                if(s.peek() < 0) lessZero++;
+                q.add(s.pop());
             }
-            while (!minus.isEmpty()) stack.add(minus.pop());
-            while (!plus.isEmpty()) stack.add(plus.pop());
+            while(lessZero > 0) {
+                if(q.peek() < 0) {
+                    s.push(q.remove());
+                    lessZero--;
+                } else {
+                    q.add(q.remove());
+                }
+            }
+            while(!q.isEmpty())
+                s.push(q.remove());
         }
     }
 
