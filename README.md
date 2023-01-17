@@ -5,6 +5,7 @@
 :black_square_button: Не сделано    
 Для того, чтобы получить перенос строки в данном файле, нужно поставить 4 пробела в конце предыдущей строки. Чекбоксы можно просто копировать.
 ### Задачи
+:white_check_mark: 1    
 :white_check_mark: 2    
 :white_check_mark: 4    
 :black_square_button: 6    
@@ -21,3 +22,4 @@
 :white_check_mark: 26    
 :white_check_mark: 27    
 :white_check_mark: 29    
+:white_check_mark: noname    
