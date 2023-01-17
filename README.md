@@ -10,7 +10,7 @@
 :white_check_mark: 3    
 :white_check_mark: 4    
 :white_check_mark: 5    
-:black_square_button: 6    
+:white_check_mark: 6    
 :white_check_mark: 7    
 :white_check_mark: 8    
 :white_check_mark: 9    
@@ -26,5 +26,6 @@
 :white_check_mark: 25    
 :white_check_mark: 26    
 :white_check_mark: 27    
+:white_check_mark: 28    
 :white_check_mark: 29    
 :white_check_mark: noname    
