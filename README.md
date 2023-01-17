@@ -7,12 +7,15 @@
 ### Задачи
 :white_check_mark: 1    
 :white_check_mark: 2    
+:white_check_mark: 3    
 :white_check_mark: 4    
 :black_square_button: 6    
 :white_check_mark: 7    
 :white_check_mark: 9    
+:white_check_mark: 11    
 :white_check_mark: 14    
 :white_check_mark: 15    
+:white_check_mark: 16    
 :white_check_mark: 18    
 :black_square_button: 21    
 :black_square_button: 22    
